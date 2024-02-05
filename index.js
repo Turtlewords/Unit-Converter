@@ -10,11 +10,17 @@ const btn = document.getElementById("btn")
 const lengthEl = document.getElementById("length-El")
 const volumeEl = document.getElementById("volume-El")
 const massEl = document.getElementById("mass-El")
+const toggle = document.getElementById("toggle-theme")
+let = isDark = true
 
 btn.addEventListener("click", function() {
     convertLength(input.value)
     convertVolume(input.value)
     convertMass(input.value)
+})
+
+btn.addEventListener("click", function() {
+
 })
 
 
@@ -35,4 +41,8 @@ function convertMass(input) {
     let pounds = Number(input) * 2.204
     let kilos = Number(input) / 2.204
     massEl.innerHTML = `${input} kilos = ${pounds.toFixed(3)} pounds | ${input} pounds = ${kilos.toFixed(3)} kilos`
+}
+
+function toggleTheme() {
+    if (hasDark)
 }

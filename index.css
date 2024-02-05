@@ -42,7 +42,7 @@ button {
 
 .resultsBox {
     background-color: #1F2937;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,4 +66,14 @@ h2 {
 
 p {
     color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    height:10vh;
+}
+
+#toggle-theme {
+    width: 130px
 }
